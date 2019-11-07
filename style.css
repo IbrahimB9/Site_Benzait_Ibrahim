@@ -1,0 +1,207 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+hr {
+	content: url(./hr.png);
+	height: 1%;
+	border: none;
+	width: 100%;
+	opacity: 0.4;
+	margin-bottom: 60px;
+}
+
+#principale {
+	height: 3000px;
+	width: 90%;
+	display: flex;
+	
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+#principaleCote {
+	display: flex;
+}
+
+#gauche {
+	width: 5%;
+	opacity: 0.4;
+	background-color: #B5D067;
+}
+
+#droite {
+	
+	width: 5%;
+	opacity: 0.4;
+	background-color: #FFEEBD;
+}
+
+#header {
+	height: 600px;
+	width: 100%;
+	display: flex;
+	
+	background-image: url(./webdesign.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+}
+
+#Nom {
+	display: flex;
+	width: 100%;
+	height: 20%;
+	color: black;
+	font-size: 65px;
+	justify-content: center;
+	
+}
+
+#portfolio {
+	height: 30%;
+	width: 100%;
+	display: flex;
+	
+	flex-wrap: wrap;
+
+}
+
+#portfolioTitre {
+	height: 5%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+}
+
+#portfolioCarrousel {
+	height: 95%;
+	width: 100%;
+	display: flex;
+	
+	justify-content: center;
+}
+
+#competences {
+	height: 20%;
+	width: 100%;
+	
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+#competencesTitre {
+	height: 10%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	
+	font-size: 35px;
+}
+
+#competencesArticles {
+	height: 90%;
+	width: 100%;
+	display: flex;
+	
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.competencesArticles1 {
+	height: 48%;
+	width: 24%;
+	
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.competencesLogo {
+	
+	display: flex;
+	justify-content: center;
+	height: 30%;
+	width: 100%;
+	font-size: 60px;
+}
+
+.competencesContenu {
+	height: 70%;
+	width: 100%;
+	display: flex;
+	
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+
+#experiences {
+	height: 20%;
+	width: 100%;
+	border: solid blue;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#experiencesTitre {
+	height: 10%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	border: grey solid;
+	font-size: 35px;
+}
+
+#experiencesArticles {
+	height: 90%;
+	width: 100%;
+	display: flex;
+	border: green solid;
+	justify-content: space-between;
+}
+
+#experiencesArticles1 {
+	height: 100%;
+	width: 30%;
+	display: flex;
+	border: orange solid;
+	flex-wrap: wrap;
+}
+
+#experiencesArticles2 {
+	height: 100%;
+	width: 30%;
+	display: flex;
+	border: orange solid;
+	flex-wrap: wrap;
+}
+
+#experiencesArticles3 {
+	height: 100%;
+	width: 30%;
+	display: flex;
+	border: orange solid;
+	flex-wrap: wrap;
+}
+
+.experiencesArticlesTitres {
+	height: 10%;
+	width: 100%;
+	border: red solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+}
+
+.experiencesArticlesContenu {
+	height: 90%;
+	width: 100%;
+	display: flex;
+	border: black solid;
+}
