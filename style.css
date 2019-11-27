@@ -14,7 +14,7 @@ hr {
 }
 
 #principale {
-	height: 3000px;
+	height: 3300px;
 	width: 90%;
 	display: flex;
 	
@@ -61,7 +61,7 @@ hr {
 }
 
 #portfolio {
-	height: 30%;
+	height: 33%;
 	width: 100%;
 	display: flex;
 	
@@ -75,6 +75,7 @@ hr {
 	display: flex;
 	justify-content: center;
 	font-size: 35px;
+	font-weight: bold;
 }
 
 #portfolioCarrousel {
@@ -86,7 +87,7 @@ hr {
 }
 
 #competences {
-	height: 20%;
+	height: 33%;
 	width: 100%;
 	
 	display: flex;
@@ -99,7 +100,7 @@ hr {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	
+	font-weight: bold;
 	font-size: 35px;
 }
 
@@ -134,16 +135,17 @@ hr {
 	height: 70%;
 	width: 100%;
 	display: flex;
-	
+	text-align: center;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	font-size: 30px;
+	margin-top: 50px;
 }
 
 #experiences {
-	height: 20%;
+	height: 33%;
 	width: 100%;
-	border: solid blue;
+
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -153,7 +155,7 @@ hr {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	border: grey solid;
+	font-weight: bold;
 	font-size: 35px;
 }
 
@@ -161,47 +163,55 @@ hr {
 	height: 90%;
 	width: 100%;
 	display: flex;
-	border: green solid;
+	
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 #experiencesArticles1 {
-	height: 100%;
-	width: 30%;
+	
+	width: 100%;
 	display: flex;
-	border: orange solid;
+	
 	flex-wrap: wrap;
 }
 
 #experiencesArticles2 {
-	height: 100%;
-	width: 30%;
+	
+	width: 100%;
 	display: flex;
-	border: orange solid;
+	
 	flex-wrap: wrap;
 }
 
 #experiencesArticles3 {
-	height: 100%;
-	width: 30%;
+	
+	width: 100%;
 	display: flex;
-	border: orange solid;
+	
 	flex-wrap: wrap;
 }
 
 .experiencesArticlesTitres {
 	height: 10%;
 	width: 100%;
-	border: red solid;
+	margin-left: 50px;
+	margin-top: 40px;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
-	font-size: 25px;
+	font-size: 2vw;
+	font-weight: bold;
+	text-decoration-line: underline;
 }
 
 .experiencesArticlesContenu {
 	height: 90%;
 	width: 100%;
+	margin-left: 50px;
+	margin-top: 40px;
 	display: flex;
-	border: black solid;
+	
+	font-size: 1.5vw;
+
 }
